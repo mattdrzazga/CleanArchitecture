@@ -1,4 +1,4 @@
-package com.example.matt.cleanarchitecture.data
+package com.example.matt.cleanarchitecture.data.feature
 
 import javax.inject.Inject
 

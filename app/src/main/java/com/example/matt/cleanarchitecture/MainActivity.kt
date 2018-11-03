@@ -4,7 +4,7 @@ import android.content.Context
 import android.content.SharedPreferences
 import android.os.Bundle
 import android.util.Log
-import com.example.matt.cleanarchitecture.data.SimpleClass
+import com.example.matt.cleanarchitecture.data.feature.SimpleClass
 import com.example.matt.cleanarchitecture.domain.MyClass
 import dagger.android.support.DaggerAppCompatActivity
 import javax.inject.Inject
