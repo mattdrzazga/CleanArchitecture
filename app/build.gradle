@@ -31,11 +31,17 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation "com.android.support:appcompat-v7:$supportLibraryVersion"
     implementation "com.android.support.constraint:constraint-layout:$constraintLayoutVersion"
+
     implementation "com.google.dagger:dagger:${dagger2Version}"
     kapt "com.google.dagger:dagger-compiler:${dagger2Version}"
     implementation "com.google.dagger:dagger-android:${dagger2Version}"
     implementation "com.google.dagger:dagger-android-support:${dagger2Version}"
     kapt "com.google.dagger:dagger-android-processor:${dagger2Version}"
+
+    implementation "com.squareup.okhttp3:okhttp:$okHttpVersion"
+    implementation "com.squareup.retrofit2:retrofit:${retrofitVersion}"
+    implementation "com.google.code.gson:gson:${gsonVersion}"
+
     testImplementation "junit:junit:$jUnitVersion"
     androidTestImplementation "com.android.support.test:runner:$testRunnerVersion"
     androidTestImplementation "com.android.support.test.espresso:espresso-core:$espressoVersion"
